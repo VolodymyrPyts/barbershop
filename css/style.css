@@ -1,0 +1,79 @@
+/* Основной цвет текста #FFFFFF; */
+/* второстепенный цвет текста #9DA4BD; */
+/* дополнительный цвет текста #303030; */
+/* цвет информационного текста #555555; */
+/* цвет активного элемента #FF6C00 */
+/* цвте подложки #111319 */
+/* второй цвет фона #F7F7F7 */
+/* дополнителный цвет подложки #191C26 */
+/* цвет оверлея rgba(25, 28, 38, 0.2) */
+/* Open Sans 700 600 400 */
+
+/* Raleway 700 */
+
+
+:root {
+    --first-text-color: #FFFFFF;
+    --secondary-text-color: #9DA4BD;
+    --other-text-color: #303030;
+    --inform-text-color: #555555;
+    --action-element-color: #FF6C00;
+    --secondary-bg-color: #F7F7F7;
+    --overley-color:rgba(25, 28, 38, 0.2);
+    --first-substrate-color: #111319;
+    --secondary-substrate-color:#191C26;
+}
+
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    background-color: var(--first-text-color);
+    color: var(--inform-text-color);
+}
+.link {
+    text-decoration: none;
+
+}
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    background-color: var(--secondary-text-color);
+   
+}
+.logo {
+    margin-right: 70px;
+}
+.head-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.head-nav-link{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--first-text-color);
+}
+.head-nav-list {
+    margin-right: 40px;
+}
+.head-nav-list:last-child {
+    margin-right: 0;
+}
+.head-conect{
+    display: flex;
+}
